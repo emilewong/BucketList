@@ -11,6 +11,11 @@
 		A133B71C2679ADAA00E68FAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A133B71B2679ADAA00E68FAF /* ContentView.swift */; };
 		A133B71E2679ADAB00E68FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A133B71D2679ADAB00E68FAF /* Assets.xcassets */; };
 		A133B7212679ADAB00E68FAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A133B7202679ADAB00E68FAF /* Preview Assets.xcassets */; };
+		A133B7292679BFB900E68FAF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A133B7282679BFB900E68FAF /* MapView.swift */; };
+		A133B72D267A6C9800E68FAF /* MKPointAnnotation-ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A133B72C267A6C9800E68FAF /* MKPointAnnotation-ObservableObject.swift */; };
+		A133B72F267A6D7400E68FAF /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A133B72E267A6D7400E68FAF /* EditView.swift */; };
+		A133B731267A710F00E68FAF /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A133B730267A710F00E68FAF /* Result.swift */; };
+		A133B733267A77E700E68FAF /* MKPointAnnotation-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A133B732267A77E700E68FAF /* MKPointAnnotation-Codable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		A133B71D2679ADAB00E68FAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A133B7202679ADAB00E68FAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A133B7222679ADAB00E68FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A133B7282679BFB900E68FAF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A133B72C267A6C9800E68FAF /* MKPointAnnotation-ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-ObservableObject.swift"; sourceTree = "<group>"; };
+		A133B72E267A6D7400E68FAF /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		A133B730267A710F00E68FAF /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		A133B732267A77E700E68FAF /* MKPointAnnotation-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-Codable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,11 @@
 				A133B7192679ADAA00E68FAF /* BucketListApp.swift */,
 				A133B71B2679ADAA00E68FAF /* ContentView.swift */,
 				A133B71D2679ADAB00E68FAF /* Assets.xcassets */,
+				A133B7282679BFB900E68FAF /* MapView.swift */,
+				A133B72C267A6C9800E68FAF /* MKPointAnnotation-ObservableObject.swift */,
+				A133B732267A77E700E68FAF /* MKPointAnnotation-Codable.swift */,
+				A133B730267A710F00E68FAF /* Result.swift */,
+				A133B72E267A6D7400E68FAF /* EditView.swift */,
 				A133B7222679ADAB00E68FAF /* Info.plist */,
 				A133B71F2679ADAB00E68FAF /* Preview Content */,
 			);
@@ -138,7 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A133B733267A77E700E68FAF /* MKPointAnnotation-Codable.swift in Sources */,
+				A133B731267A710F00E68FAF /* Result.swift in Sources */,
 				A133B71C2679ADAA00E68FAF /* ContentView.swift in Sources */,
+				A133B72F267A6D7400E68FAF /* EditView.swift in Sources */,
+				A133B72D267A6C9800E68FAF /* MKPointAnnotation-ObservableObject.swift in Sources */,
+				A133B7292679BFB900E68FAF /* MapView.swift in Sources */,
 				A133B71A2679ADAA00E68FAF /* BucketListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
